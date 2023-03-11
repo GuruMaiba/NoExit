@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Что такое квесты";
+}
+<div class="row">
+    <div class="col-md-5" style="text-align:center">
+        
+
+        <img style="z-index:1; width: 90%" alt="Что такое реалити-квесты?" src=@Url.Content("~/Content/Images/stalker.png") />
+        
+        
+    </div>    
+    <div class="col-md-7">
+        <div style="color: #fccf21 ; margin-left:7%; font-family:'Exo 2',serif;font-weight:800; font-size:50px; text-align:left; ">
+            Что такое реалити-квест?
+        </div>
+
+
+        <div style="font-family:'Exo 2',serif;font-weight:300; font-size:20px;margin:7%">
+            Это некое помещение (обычно состоящее из 3 комнат, двери между которыми заперты), которое оформлено в том или ином стиле (в зависимости от истории игры и вашей роли в ней). Вас и ваших друзей (от 2 до 4 человек) вводят в курс дела путем показа вводного видео (из которого вы узнаете, кто вы и что произошло) и запускают в первую из комнат, после чего дверь запирается и включается таймер. На то, чтобы выбраться из помещения (всех трех комнат) у вас есть всего 60 минут (1 час).
+        </div>
+        
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-8">
+        <div style="color: #fccf21 ; margin-left:7%; font-family:'Exo 2',serif;font-weight:800; font-size:50px; text-align:left; ">
+            Как устроен реалити-квест?
+        </div>
+
+        <div style="font-family:'Exo 2',serif;font-weight:300; font-size:20px;margin:7%">
+            Реалити квесты могут быть двух типов - выполнение миссии или побег. В первом варианте все, что необходимо участникам — это сбежать из тематического помещения, максимально взаимодействуя с остальными участниками игры, применив при этом всю свою внимательность, логику и находчивость. Ведь живые квест румы «Выбраться из комнаты» требуют от участников постоянного поиска подсказок, которые необходимо анализировать и сопоставлять с остальными предметами находящимися в помещении.
+            <br />
+            Существуют комнаты, в которых требуется не просто выбраться из помещения, но и выполнить при этом какую-либо определенную миссию (найти артефакт, обезвредить бомбу, стереть данные с носителя и пр.). Как правило, выбраться из такой квест-комнаты нельзя, пока задача группы не будет выполнена.
+        </div>
+    </div>
+
+    <div class="col-md-4" style="text-align:center">
+        <img style="width: 100%; " alt="Как устроен реалити-квест?" src=@Url.Content("~/Content/Images/nurses.png") />
+    </div>
+</div>
+
+
+
+<div style="margin: 5%; font-family:'Exo 2',serif;font-weight:400; font-size:36px">
+    <h2>Квест комната «Выхода НЕТ» — это отличное место для того, чтобы провести время со своими близкими, друзьями и коллегами. Хотите удивить друга оригинальным подарком на день рождения? - Подарите ему поход в нашу квест-комнату! Хочется потрепать нервы или испытать себя? - Реалити приключение - то, что вам нужно!</h2>
+</div>
+
+
+
+
+<div style="margin-top: 5%; width: 100%; text-align: center;">
+    @Html.ActionLink("ЗАБРОНИРОВАТЬ","Index","Quests",null,new {@class= "btn-my2", @style= "font-family:'Exo 2',serif;font-weight:400; font-size:36px;border-radius: 10px; color:rgb(0,0,0); " })
+</div>
+<div style="margin: 5%">
+    <a class="flamp-widget" href="http://surgut.flamp.ru/firm/vykhoda_net_firma_po_organizacii_kvestov-70000001019484368" data-flamp-widget-type="responsive" data-flamp-widget-count="5" data-flamp-widget-id="70000001019484368" data-flamp-widget-width="100%">Отзывы о нас на Флампе</a>
+    <script>
+        !function(d, s) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            js = d.createElement(s);
+            js.async = 1;
+            js.src = "//widget.flamp.ru/loader.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script");
+    </script>
+</div>

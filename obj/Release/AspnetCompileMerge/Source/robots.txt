@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /Areas
+Sitemap: http://noexit.me/sitemap.xml
+Host: noexit.me

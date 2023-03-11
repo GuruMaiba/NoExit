@@ -1,0 +1,342 @@
+﻿@using System.Globalization
+@model IEnumerable<NoExit.Models.Quest>
+
+@{
+    var questName = "";
+    if (ViewBag.questId == 1)
+        { questName = "Апокалипсис"; }
+    else if (ViewBag.questId == 2)
+        { questName = "Шизофрения"; }
+    else if (ViewBag.questId == 3)
+        { questName = "Silent Hill"; }
+
+    ViewBag.Title = "Список сеансов " + questName;
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">Список сеансов</h2>
+<script>
+    $(document).ready(function () {
+        $("#SubmitButton").on('click', function () {
+console.log($('#Id').val() + " " + $('#FIO').val() + " " + $('#Phone').val() + " " + $('#Count').val() + " " + $('#Comment').val());
+            $.ajax({
+                url: "/Admin/Quests/Reserve",
+                type: "POST",
+                data: {
+                    Id:$('#Id').val(),
+                    FIO:$('#FIO').val(),
+                    Phone:$('#Phone').val(),
+                    Count:$('#Count').val(),
+                    Comment:$('#Comment').val(),
+                },
+                success: function () {
+                    location.reload();
+                },
+                error: function (jqXHR, status, error) {
+                    console.log(status + ": " + error);
+                }
+            });
+        });
+        //$("#SubmitForm").on("submit", function (e) {
+        //    var postData = $("#SubmitForm").serializeArray();
+
+        //    $.ajax({
+        //        url: "Quests/Create",
+        //        type: "POST",
+        //        data: postData,
+        //        success: function () {
+        //            $('#myModal').modal('hide');
+        //            location.reload();
+        //        },
+        //        error: function (jqXHR, status, error) {
+        //            console.log(status + ": " + error);
+        //        }
+        //    });
+        //    e.preventDefault();
+        //});
+
+        //$("#SubmitButton").on('click', function () {
+        //    $("#SubmitForm").submit();
+        //});
+    });
+
+    function UnReserve(id)
+    {
+        $.ajax({
+            url: "/Admin/Quests/UnReserve",
+            type: "POST",
+            data: {
+                Id:id,
+                
+            },
+            success: function () {
+                location.reload();
+            },
+            error: function (jqXHR, status, error) {
+                console.log(status + ": " + error);
+            }
+        });
+    }
+
+    
+    function Delete(id)
+    {
+        $.ajax({
+            url: "/Admin/Quests/Delete",
+            type: "POST",
+            data: {
+                Id:id
+                
+            },
+            success: function () {
+                location.reload();
+            },
+            error: function (jqXHR, status, error) {
+                console.log(status + ": " + error);
+            }
+        });
+    }
+
+    function Create(date) {
+        $('#DateTime').val(date);
+        $('#myModal').modal('show');
+    }
+
+    function PreReserve(id)
+    {
+            $('#Id').val(id);
+            $('#myModal2').modal('show');
+    }
+
+    
+
+    function CreateAjax() {
+        $.ajax({
+            url: "/Admin/Quests/Create",
+            type: "POST",
+            data: {
+                questId: $("#QuestId").val(),
+                datetime: $("#DateTime").val(),
+                price: $("#Price").val(),
+            },
+            success: function () {
+                location.reload();
+            },
+            error: function (jqXHR, status, error) {
+                console.log(status + ": " + error);
+            }
+        });
+    }
+</script>
+
+<div class="modal fade" id="myModal2" role="dialog" style="background-color: black; color:white">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content" style="background-color: black">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @*<div class="modal-header">*@
+            @*<h4 class="modal-title">Зарезервировать</h4>*@
+            @*</div>*@
+
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal"><img style="width:80%" src="~/Content/Images/close.png" /> </button>
+
+                
+                    <div class="form-horizontal">
+                        <input class="hidden" name="Id" id="Id" />
+
+                        
+
+
+                        <div class="row" style="margin-top: 5%;font-size:18px;font-family:'Exo 2',serif;font-weight:400;">
+                            <div class="col-xs-8" style="float:left">
+                                <div style="float:left; margin-right:5px">Дата/Время:</div>
+                                <div style="color: #fccf21;float:left" id="datetime"></div>
+                            </div>
+                            <div class="col-xs-4" style="float:left">
+                                <div style="float:left; margin-right:5px">Цена:</div>
+                                <div style="color: #fccf21;float:left" id="price"></div>
+                            </div>
+                        </div>
+
+
+                        @*Дата
+                            <label class="" type="date" name="date" id ="date"/>*@
+
+                        <input style="color: rgb(188, 188, 188);margin-top: 5%; max-width: none; height: 56px; font-size: 24px; font-family:'Exo 2',serif;font-weight:400;background-color:black;" class="form-control" type="text" id="FIO" name="FIO" placeholder="Имя" />
+                        <input style="color: rgb(188, 188, 188);margin-top: 5%; max-width: none; height: 56px; font-size: 24px; font-family:'Exo 2',serif;font-weight:400;background-color:black;" class="form-control" id="Phone" name="Phone" placeholder="Контактный телефон" />
+                        <style>
+                            .btnCount {
+                                border-radius: 5px;
+                                background-color: white;
+                                color: black;
+                                border-width: 0;
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                                .btnCount.active {
+                                    background-color: #fccf21;
+                                }
+
+                                .btnCount:hover {
+                                    background-color: #f5af00;
+                                }
+                        </style>
+                        <div style="color: rgb(188, 188, 188);margin-top: 5%; max-width: none; height: 56px; font-size: 24px; font-family:'Exo 2',serif;font-weight:400; text-align: left;background-color:black;">
+                            Количество человек
+                            <div style="float:right">
+                                <input name="Count" id="Count" class="hidden" value="2" />
+                                <input class="btnCount active" id="btn-radio-2" style="" onclick="changeCount(2)" type="button" value="2" />
+                                <input class="btnCount" id="btn-radio-3" style="" onclick="changeCount(3)" type="button" value="3" />
+                                <input class="btnCount" id="btn-radio-4" style="" onclick="changeCount(4)" type="button" value="4" />
+                                <input class="btnCount" id="btn-radio-5" style="" onclick="changeCount(5)" type="button" value="5" />
+                            </div>
+
+                        </div>
+                        <textarea placeholder="Особые пожелания" style="color: rgb(188, 188, 188);resize: vertical; margin-top: 5%; max-width: none; height: 100px; font-size: 24px; font-family:'Exo 2',serif;font-weight:400;background-color:black;" class="form-control" name="Comment" id="Comment"></textarea>
+                        <div style="margin-top: 5%; max-width: none; height: 56px; font-size: 24px; text-align: center; font-family:'Exo 2',serif;font-weight:400;">
+                            <button style="border-radius:10px; border-width:0; font-size:24px" id="SubmitButton" class="btn-my1">ЗАБРОНИРОВАТЬ</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            @*<div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>*@
+
+        </div>
+
+</div>
+
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new {@class = "text-danger"})
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Добавление сеанса</h4>
+                </div>
+                <div class="modal-body">
+
+
+                    <div class="form-horizontal">
+                        <input class="hidden" name="QuestId" id ="QuestId" value="@ViewBag.questId"/>
+                        <input class="hidden" name="DateTime" id ="DateTime" />
+                        
+                        @*Дата
+    <label class="" type="date" name="date" id ="date"/>*@
+                        Цена
+                        <input class="form-control" type="number" id="Price" name="Price" value="1000" />
+
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="SubmitButton" class="btn btn-success" onclick="CreateAjax()">Добавить</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+@if (ViewBag.Date > DateTime.Now)
+{
+@Html.ActionLink("Назад на неделю", "Index", "Quests", new { questId = ViewBag.questId, date = ViewBag.Date.AddDays(-7) }, new { @class = "glyphicon glyphicon-arrow-left btn btn-my1", @style = "float:left" }) 
+}
+
+
+
+
+@Html.ActionLink("Вперед на неделю","Index", "Quests", new { questId = ViewBag.questId, date = ViewBag.Date.AddDays(7) }, new { @class = "btn glyphicon glyphicon-arrow-right btn btn-my1", @style = "float:right" }) 
+<div style="text-align:center">
+    @Html.ActionLink("Заполнить на неделю", "DefaultWeek", "Quests", new { questId = ViewBag.questId, date = ViewBag.Date, toDate= ViewBag.Date }, new { @class = "btn btn-my1", @style = "" })
+</div>
+
+
+    <div style="font-family:'Exo 2',serif;font-weight:700; font-size:30px; text-align:center; padding:3%">@ViewBag.Date.ToString("d")-@ViewBag.Date.AddDays(6).ToString("d")</div>
+
+    <div style=" text-align:center">
+        <table class="table table-striped table-bordered table-condensed" style="">
+            <tr>
+                <th></th>
+                @for (int i = 0; i < 7; i++)
+            {
+                    <th>
+                        @ViewBag.Date.AddDays(i).ToString("d")<br />@DateTimeFormatInfo.CurrentInfo.GetDayName(ViewBag.Date.AddDays(i).DayOfWeek)
+                        @Html.ActionLink("Заполнить", "DefaultDay", "Quests", new { questId = ViewBag.questId, date = ViewBag.Date.AddDays(i), toDate = ViewBag.Date }, new { @class = "btn btn-my1", @style = "float:right" })
+
+                    </th>
+                }
+
+            </tr>
+            @for (int j = 0; j < 18; j++)
+            {
+                var min = j * 80 + 40;
+                min += (ViewBag.questId == 1) ? 20 : 0;
+                min += (ViewBag.questId == 2) ? 40 : 0;
+                <tr>
+                    <text>
+                        <td>@ViewBag.Date.Date.AddMinutes(min).ToString("t")</td>
+                    </text>
+                    @for (int i = 0; i < 7; i++)
+                {
+                        <td style="text-align: center">
+
+                            @if (Model.All(t => t.DateTime.ToString("g") != ViewBag.Date.Date.AddDays(i).AddMinutes(min).ToString("g")))
+                            {
+
+                                <text><button class="btn btn-my1" onclick="Create('@ViewBag.Date.Date.AddDays(i).AddMinutes(min).ToString("g")')">+</button></text>
+
+                            }
+                            else
+                            {
+                                var Quest = Model.FirstOrDefault(t => t.DateTime.ToString("g") == ViewBag.Date.Date.AddDays(i).AddMinutes(min).ToString("g"));
+                                var style = Quest.IsReserved ? "warning" : "primary";
+
+
+                                if (Quest.IsReserved)
+                                {
+                                    <text><button type="button" class="btn btn-@style" onclick="UnReserve(@Quest.Id)">
+                                            Сеанс @Quest.Price р
+
+
+                                        </button></text>
+                                }
+                                else
+                                {
+                                    <text><button type="button" class="btn btn-@style" onclick="PreReserve(@Quest.Id)">
+                                            Сеанс @Quest.Price р
+
+                                        </button></text>
+                                }
+
+                                <button type="button" class="btn btn-@style glyphicon glyphicon-remove-circle" onclick="Delete(@Quest.Id)" />
+                            }
+                        </td>
+
+
+
+                    }
+
+                </tr>
+            }
+            @*@foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                        </td>
+                    </tr>
+                }*@
+
+        </table>
+    </div>

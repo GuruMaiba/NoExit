@@ -1,0 +1,46 @@
+﻿
+@model  NoExit.Areas.Admin.Models.IPageSeparator
+
+<div class="btn-toolbar" role="toolbar" aria-label="..." style="width:100%">
+    <div class="btn-group" role="group">
+        @if (Model.TotalPages > 1)
+        {
+            <nav>
+                <ul class="pagination" style="margin:0">
+                    <li class="@string.Format("{0}", (Model.CurrPageNumber == 0) ? "active" : "")" onclick="SetPageGlobal('0', '@Model.AjaxFormName')">
+                        <a href="#">1</a>
+                    </li>
+                    @for (int i = Model.CurrPageNumber - 5; i < Model.CurrPageNumber + 5; i++)
+                    {
+                        if (i < 1 || i >= Model.TotalPages - 1)
+                        {
+                            continue;
+                        }
+                        <li class="@string.Format("{0}", (Model.CurrPageNumber == i) ? "active" : "")" onclick="SetPageGlobal('@i', '@Model.AjaxFormName')">
+                            <a href="#">@(i + 1)</a>
+                        </li>
+                    }
+                    <li class="@string.Format("{0}", (Model.CurrPageNumber == @Model.TotalPages - 1) ? "active" : "")" onclick="SetPageGlobal('@(Model.TotalPages - 1)', '@Model.AjaxFormName')">
+                        <a href="#">@(Model.TotalPages)</a>
+                    </li>
+                </ul>
+            </nav>
+        }
+    </div>
+
+    <div class="btn-group pull-right">
+        Записей на странице
+        <div class="btn-group" style="float:right">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">@Model.MaxRecordOnPage <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#" onclick="SetPageCountGlobal(5, '@Model.AjaxFormName')">5</a></li>
+                <li><a href="#" onclick="SetPageCountGlobal(10, '@Model.AjaxFormName')">10</a></li>
+                <li><a href="#" onclick="SetPageCountGlobal(20, '@Model.AjaxFormName')">20</a></li>
+                <li><a href="#" onclick="SetPageCountGlobal(50, '@Model.AjaxFormName')">50</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+

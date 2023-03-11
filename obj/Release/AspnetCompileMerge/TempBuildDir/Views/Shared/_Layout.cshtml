@@ -1,0 +1,547 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    @{
+        string title = ViewBag.Title.ToString();
+        switch (title)
+        {
+            case "Наши квесты":
+                {
+                    <meta name="description" content="Квесты в Сургуте | Квест - комнаты в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Экзит геймс, ExitGames, квесты в реальности, квест игры, шизофрения квест, апокалипсис квест, квесты в реальности сургут, квест комната, квест комната в реальности, сайлент хилл квест, сайт квеста в реальности, выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuestСургут.">
+                    <meta name="yandex-verification" content="610baf05f8f56ba7" />
+                    <meta name="google-site-verification" content="cZVUIml7Sphh-olQ69rIuUMJ09HwqQXuBGkcW_2zpVc" />
+
+
+                    break;
+                }
+            case "Что такое квесты":
+                {
+                    <meta name="description" content="Что такое квест-комнаты в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Что такое квест, что такое квест комната, что такое квест в реальности, Экзит геймс, Exit Games, квесты в реальности, квест игры, шизофрения квест, апокалипсис квест, квесты в реальности сургут, квест комната, квест комната в реальности, сайлент хилл квест, сайт квеста в реальности, выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuest Сургут.">
+
+                    break;
+                }
+            case "Забронировать квест":
+                {
+                    <meta name="description" content="Забронировать квест-комнату в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Забронировать квест, новые квесты в реальности, Экзит геймс, Exit Games, квесты в реальности, квест игры, шизофрения квест, апокалипсис квест, квесты в реальности сургут, квест комната, квест комната в реальности, сайлент хилл квест, сайт квеста в реальности, выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuest Сургут.">
+
+                    break;
+                }
+            case "Подарочные сертификаты":
+                {
+                    <meta name="description" content="Подарочные сертификаты на прохождение квеста в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Подарочные сертификаты, подарочные сертификаты на квест комнату, новые квесты в реальности, Экзит геймс, Exit Games, квесты в реальности, квест игры, шизофрения квест, апокалипсис квест, квесты в реальности сургут, квест комната, квест комната в реальности, сайлент хилл квест, сайт квеста в реальности, выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuest Сургут.">
+
+                    break;
+                }
+            case "Контакты":
+                {
+                    <meta name="description" content="Контакты квест-комнат в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Контакты квеста в реальности, отзывы квесты в реальности, новые квесты в реальности, Экзит геймс, Exit Games, квесты в реальности, квест игры, шизофрения квест, апокалипсис квест, квесты в реальности сургут, квест комната, квест комната в реальности, сайлент хилл квест, сайт квеста в реальности, выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuest Сургут.">
+
+                    break;
+                }
+            case "Апокалипсис":
+                {
+                    <meta name="description" content="Апокалипсис | Квест-комната в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Экзит геймс, Exit Games, квесты в реальности, квест игры, апокалипсис квест, квесты в реальности сургут, квест комната, квест комната в реальности,  выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuest Сургут.">
+
+                    break;
+                }
+            case "Шизофрения":
+                {
+                    <meta name="description" content="Шизофрения | Квест-комната в реальности &quot;Выхода НЕТ&quot;">
+                    <meta name="keywords" content="Экзит геймс, Exit Games, квесты в реальности, квест игры, шизофрения квест, квесты в реальности сургут, квест комната, квест комната в реальности,  выбраться из комнаты, живой квест, выйти из комнаты, мир квестов, RRQuest Сургут.">
+
+                    break;
+                }
+
+            default:
+                { break; }
+        }
+    }
+
+
+
+    @if (ViewBag.Title == "Наши квесты")
+    {
+        <title>Квесты Выхода НЕТ</title>
+    }
+    else
+    {
+        <title>@ViewBag.Title</title>
+    }
+    <link rel="icon" href="@Url.Content("~/favicon.ico")" type="image/x-icon" />
+    <link rel="shortcut icon" href="@Url.Content("~/favicon.ico")" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:100,300,500,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jquery-ui")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/NProgress")
+    @Scripts.Render("~/jsMaskedInput")
+    
+    
+</head>
+
+<body style="overflow-x:hidden; margin:0; padding:0;line-height: 1.2; color:black">
+   <style>
+
+
+
+
+
+
+
+
+
+    .navbar-left .nav li.active2 a{
+
+                    border-radius:10px;
+                    background-color: #ffbe00 
+    }
+    .navbar-left .nav li a{
+        color: @((ViewBag.Theme == "dark") ? "rgb(255, 255, 255)" : "rgb(0,0,0)");
+
+    }
+    .navbar-left .nav li a:hover, .navbar-left .nav li a:focus{
+        color: #000000 ;
+        border-radius:10px;
+        background-color: #fccf21  
+
+    }
+
+    .navbar-right li a img{
+            opacity:0.5;
+            background-color:transparent
+        }
+    .navbar-right li a:hover, .navbar-right li a:focus{
+
+        background-color:transparent
+    }
+    .navbar-right li a img:hover, .navbar-right li a img:focus{
+        opacity:1;
+        background-color:transparent
+    }
+
+
+
+    </style>
+
+    
+    <script>
+        $('body').show();
+
+        NProgress.start();
+        $(window).load(function () { NProgress.done(); $('.fade').removeClass('out'); });
+
+
+
+        
+    </script>
+    @{if (ViewBag.Title != "Наши квесты")
+        {
+            
+
+
+
+            <div class="navbar  navbar-static-top custom-navbar"
+                  role="navigation" style="margin:0; padding:0; font-family: 'Exo 2', serif;font-weight: 300; z-index: 50;
+                 font-size:14px;  
+                 @((ViewBag.Theme == "dark")?"color: rgb(255, 255, 255);background-color:rgb(0, 0, 0)":
+                "height:0;margin-bottom:100px;color: rgb(0, 0, 0);background-color:transparent") ">
+                <div class="container-fluid" style="margin:0">
+
+                    <div class="navbar-header" style="width: 100%!important;">
+
+
+                        <a id="logo_header" class="navbar-brand" style="padding:0px;position:absolute; margin-left:0" href="@Url.Action("Index", "Home")">
+                            <img style="height:120px" src="@Url.Content("~/Content/Images/logo.png")" />
+                        </a>
+                        
+                        <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" style="padding:15px;margin-left:200px; margin-right:190px; float:right  ">
+                            
+                            <div id="toggle" class="button_container " style="float:left; margin-top:10px">
+                                <span style="background-color:#eccc3f;" class="top"></span>
+                                <span style="background-color:#eccc3f;" class="middle"></span>
+                                <span style="background-color:#eccc3f;" class="bottom"></span>
+                            </div>
+                        </button>
+                        <ul class="nav navbar-nav navbar-right" style="position:absolute; right:35px; padding:15px;padding-top:20px ">
+                            <li style="margin-top:15px;margin-right:15px; font-size:20px">
+
+                                +7 (3462) 735-700
+
+                            </li>
+                            <li class="visible-sm visible-md visible-lg">
+                                <a style="height:auto; padding-left:5px;padding-right:5px;" target="_blank" href="https://vk.com/noexit86">
+                                    <img style="height:25px" src="@Url.Content("~/Content/Images/vk-social-logotype.png")" />
+                                </a>
+                            </li>
+                            
+                            <li class="visible-sm visible-md visible-lg">
+                                <a style="height:auto; padding-left:5px;padding-right:5px;" target="_blank" href="https://www.instagram.com/Noexitsurgut/">
+                                    <img style="height:25px" src="@Url.Content("~/Content/Images/instagram-logo.png")" />
+                                </a>
+                            </li>
+                            <!--<li class="visible-sm visible-md visible-lg">
+                                <a style="height:auto; padding-left:5px;padding-right:5px;" target="_blank" href="@Url.Action("Index", "Home")">
+                                    <img style="height:25px" src="@Url.Content("~/Content/Images/facebook-logo.png")" />
+                                </a>
+                            </li>-->
+
+                        </ul>
+
+                    </div>
+
+
+
+
+
+
+                    <div class="collapse navbar-collapse navbar-left" id="navbar-collapse-1" style="padding:35px; margin-left:165px; margin-right:270px;">
+                        <ul class="nav navbar-nav navbar-left">
+
+                            <li>
+                                @Html.ActionLink("Наши квесты", "Index", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Что такое квесты", "About", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Забронировать квест", "Index", "Quests", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+
+                            <li>
+                                @Html.ActionLink("Подарочные сертификаты", "GiftCards", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Контакты", "Contact", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <div style="">
+
+
+                <div class="overlay" id="overlay">
+                    <nav class="overlay-menu">
+                        <ul>
+                            <li>
+                                @Html.ActionLink("Наши\u00A0квесты", "Index", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Что\u00A0такое\u00A0квесты", "About", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Забронировать\u00A0квест", "Index", "Quests", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+
+                            <li>
+                                @Html.ActionLink("Подарочные\u00A0сертификаты", "GiftCards", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Контакты", "Contact", "Home", null, new { @style = "padding-top:7px;padding-bottom:7px;" })
+                            </li>
+                            <li>
+                                <ul class="" style="">
+                                    <li style="font-size:20px; float:left;line-height:40px">
+
+                                        +7 (3462) 735-700
+
+                                    </li>
+                                    <li class="" style="float:left">
+                                        <div>
+                                            <a class="img" target="_blank" style="height:auto; padding-left:5px;padding-right:5px;" href="@Url.Action("Index", "Home")">
+                                                <img style="height:25px" src="@Url.Content("~/Content/Images/vk-social-logotype.png")" />
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="" style="float:left">
+                                        <div>
+                                            <a class="img" target="_blank" style="height:auto; padding-left:5px;padding-right:5px;" href="@Url.Action("Index", "Home")">
+                                                <img style="height:25px" src="@Url.Content("~/Content/Images/instagram-logo.png")" />
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <!--<li class="" style="float:left">
+                                        <div>
+                                            <a class="img" target="_blank" style="height:auto; padding-left:5px;padding-right:5px;" href="@Url.Action("Index", "Home")">
+                                                <img style="height:25px" src="@Url.Content("~/Content/Images/facebook-logo.png")" />
+                                            </a>
+                                        </div>
+                                    </li>-->
+                                    
+                                    
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+
+            <style>
+                .button_container {
+                    position: absolute;
+                    right: 30px;
+                    height: 27px;
+                    width: 35px;
+                    cursor: pointer;
+                    z-index: 100;
+                    -webkit-transition: opacity .25s ease;
+                    transition: opacity .25s ease;
+                }
+
+                    .button_container:hover {
+                        opacity: .7;
+                    }
+
+                    .button_container.active .top {
+                        -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
+                        transform: translateY(11px) translateX(0) rotate(45deg);
+                        background: #FFF;
+                    }
+
+                    .button_container.active .middle {
+                        opacity: 0;
+                        background: #FFF;
+                    }
+
+                    .button_container.active .bottom {
+                        -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
+                        transform: translateY(-11px) translateX(0) rotate(-45deg);
+                        background: #FFF;
+                    }
+
+                    .button_container span {
+                        background: #F7BC05;
+                        border: none;
+                        height: 5px;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        -webkit-transition: all .35s ease;
+                        transition: all .35s ease;
+                        cursor: pointer;
+                    }
+
+                        .button_container span:nth-of-type(2) {
+                            top: 11px;
+                        }
+
+                        .button_container span:nth-of-type(3) {
+                            top: 22px;
+                        }
+
+                .overlay {
+                    position: fixed;
+                    background: black;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 0%;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-transition: opacity .35s, visibility .35s, height .35s;
+                    transition: opacity .35s, visibility .35s, height .35s;
+                    overflow: hidden;
+                }
+
+                    .overlay.open {
+                        opacity: 1;
+                        visibility: visible;
+                        height: 100%;
+                        z-index: 22;
+                    }
+
+                        .overlay.open li {
+                            -webkit-animation: fadeInRight .5s ease forwards;
+                            animation: fadeInRight .5s ease forwards;
+                            -webkit-animation-delay: .35s;
+                            animation-delay: .35s;
+                        }
+
+                            .overlay.open li:nth-of-type(2) {
+                                -webkit-animation-delay: .4s;
+                                animation-delay: .4s;
+                            }
+
+                            .overlay.open li:nth-of-type(3) {
+                                -webkit-animation-delay: .45s;
+                                animation-delay: .45s;
+                            }
+
+                            .overlay.open li:nth-of-type(4) {
+                                -webkit-animation-delay: .50s;
+                                animation-delay: .50s;
+                            }
+
+                    .overlay nav {
+                        position: relative;
+                        height: 60%;
+                        top: 40%;
+                        -webkit-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        font-size: 25px;
+                        font-family: 'Exo 2', serif;
+                        font-weight: bold;
+                        color:white;
+
+                        text-align: center;
+                    }
+
+                    .overlay ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        display: inline-block;
+                        position: relative;
+                        height: 100%;
+                    }
+
+                        .overlay ul li {
+                            display: block;
+                            height: 25%;
+                            height: calc(100% / 4);
+                            min-height: 30px;
+                            position: relative;
+                            opacity: 0;
+                        }
+
+                            .overlay ul li a {
+                                position: relative;
+                                color: white;
+                                text-decoration: none;
+                                overflow: hidden;
+                            }
+                            .overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
+                                    color: #fccf21;
+                                }
+                                .overlay ul li a img:hover:after, .overlay ul li a img:focus:after, .overlay ul li a img:active:after {
+                                    height: 30px;
+                                }
+                                .overlay ul li a:after {
+                                    content: '';
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 50%;
+                                    width: 0%;
+                                    -webkit-transform: translateX(-50%);
+                                    transform: translateX(-50%);
+                                    height: 4px;
+                                    background: #fff;
+                                    -webkit-transition: .35s;
+                                    transition: .35s;
+                                }
+
+                @@-webkit-keyframes fadeInRight {
+                    0% {
+                        opacity: 0;
+                        left: 20%;
+                    }
+
+                    100% {
+                        opacity: 1;
+                        left: 0;
+                    }
+                }
+
+                @@keyframes fadeInRight {
+                    0% {
+                        opacity: 0;
+                        left: 20%;
+                    }
+
+                    100% {
+                        opacity: 1;
+                        left: 0;
+                    }
+                }
+            </style>
+            <script>
+                $('#toggle').click(function() {
+                    $(this).toggleClass('active');
+                    $('#overlay').toggleClass('open');
+                    
+
+                    if (document.getElementById("logo_header").style.display == "none") {
+                        document.getElementById("logo_header").style.display = "block";
+                        document.getElementById("toggle").style.position = "absolute";
+                    }
+                    else {
+                        document.getElementById("logo_header").style.display = "none";
+                        document.getElementById("toggle").style.position = "absolute";
+                    }
+
+});
+            </script>
+        }
+    }
+    
+<div class="body-content" style="width: 100%;margin:0;padding: 0;font-family:Exo 2; font-size:18px;">
+
+
+    @RenderBody()
+
+
+    <style>
+        .footer-my a {
+            opacity: 0.5;
+             text-decoration:none;
+        }
+        .footer-my a:hover, .footer-my a:focus {
+            opacity: 1;
+             text-decoration:none
+        }
+    </style>
+
+
+    <footer class="bottom" style="margin-top: 5%;margin-right: 5%;margin-left: 5%;margin-bottom: 1%;font-size: 18px; font-family:'Exo 2',serif;font-weight:300;">
+        <hr style="margin-bottom:60px" />
+        <div class="footer-my" style="margin-top:20px; float:left; text-decoration:none; padding-right:5px;">
+            Выхода нет!
+        
+            @Html.ActionLink("Главная", "Index", "Home", null, new { @style= "color: rgb(0, 0, 0);margin-left:10px; margin-right:5px" })
+            @Html.ActionLink("Что такое квесты", "About", "Home", null, new { @style = "color: rgb(0, 0, 0); margin-right:5px" })
+            @Html.ActionLink("Забронировать квест", "Index", "Quests", null, new { @style = "color: rgb(0, 0, 0); margin-right:5px" })
+            @Html.ActionLink("Подарочные сертификаты", "GiftCards", "Home", null, new { @style = "color: rgb(0, 0, 0); margin-right:5px" })
+            @Html.ActionLink("Контакты", "Contact", "Home", null, new { @style = "color: rgb(0, 0, 0); margin-right:5px" })
+        </div>
+         
+        
+        <div class="wrapper right" style="float:right;font-size: 18px; font-family:'Exo 2',serif;font-weight:400; color:black">
+            Сделали
+            <a href="http://unk.im" target="_blank"><img src="@Url.Content("~/Content/Images/unk1.png")" alt="UNK - студия web-дизайна"></a>
+        </div>
+        
+    </footer>
+</div>
+
+
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</body>
+</html>

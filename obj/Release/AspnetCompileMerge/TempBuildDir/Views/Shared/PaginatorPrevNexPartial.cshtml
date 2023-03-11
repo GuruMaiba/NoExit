@@ -1,0 +1,34 @@
+﻿@model  NoExit.Areas.Admin.Models.IPageSeparator
+@if (Model.TotalPages > 1)
+{
+    <div class="row">
+        <div class="col-lg-12">
+
+            <nav>
+                <ul class="pager">
+                    @if (Model.CurrPageNumber > 0)
+                    {
+                        <li><a href="#" onclick="javascript: SetPageGlobal('@(Model.CurrPageNumber - 1)', '@Model.AjaxFormName');">Назад</a></li>
+                    }
+                    else
+                    {
+                        <li class="disabled"><a href="#" class="disabled" onclick="javascript: return false;">Назад</a></li>
+                    }
+
+
+                    @if (Model.CurrPageNumber < Model.TotalPages - 1)
+                    {
+                        <li><a href="#" onclick="javascript: SetPageGlobal('@(Model.CurrPageNumber + 1)', '@Model.AjaxFormName');">Вперед</a></li>
+                    }
+                    else
+                    {
+                        <li class="disabled"><a href="#" class="disabled" onclick="javascript: return false;">Вперед</a></li>
+                    }
+
+                </ul>
+            </nav>
+
+
+        </div>
+    </div>
+}

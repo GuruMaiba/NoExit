@@ -1,0 +1,138 @@
+﻿@model NoExit.Areas.Admin.Models.RequestsVM
+
+@{
+    ViewBag.Title = "Список заявок";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Список заявок</h2>
+
+<script>
+    $(function () {
+        var dat = Date.now();
+        $('#startDate').datepicker({ dateFormat: 'dd.mm.yy',changeYear:true , defaultDate: new Date(01,01,2016) });
+        $('#endDate').datepicker({ dateFormat: 'dd.mm.yy',changeYear:true, defaultDate: dat  });
+        $('#startDate').val("01.01.0001");
+        $('#endDate').val("01.01.0001");
+        $('#startTime').val("00:00");
+        $('#endTime').val("00:00");
+    },
+    $.datepicker.regional['ru']);
+    function sbros() {
+        $('#startDate').val("01.01.0001");
+        $('#endDate').val("01.01.0001");
+        $('#startTime').val("00:00");
+        $('#endTime').val("00:00");
+        $('#CurrPageNumber').val("0");
+        $('#QuestsId').val("0");
+        $('#Filter').val("");
+    }
+</script>
+@using (Ajax.BeginForm("RequestListPartial", "QuestRequests",
+                        new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "RequestListSearch" },
+                        new { id = "FilterForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.CurrPageNumber)
+    @Html.HiddenFor(model => model.MaxRecordOnPage)
+    
+    @*<input id="FiltId" type="submit" style="" />*@
+    <label class="control-label" for="PersonList"> Поиск</label>
+            <div class="row">
+
+
+                <div id="PersonList" class="col-lg-2">
+                    Фильтр
+                    @Html.TextBoxFor(model => model.Filter, new { @class = "form-control", style = "" })
+                    
+                </div>
+                
+                <div class="col-lg-2">
+                    Квест
+                    @Html.DropDownListFor(model => model.QuestsId,new SelectList(new [] { new SelectListItem { Value = "0", Text = "Выберите квест" }, new SelectListItem { Value ="1", Text="Апокалипсис" }, new SelectListItem { Value="2", Text="Шизофрения" } }, "Value", "Text"), new {  @class = "form-control", value = "", style = "", onchange= "ApplFilter()" })
+                </div>
+                <div class="col-lg-2">
+                    Начальная дата
+                    @Html.EditorFor(model => model.startDate,new { htmlAttributes = new { @class = "form-control", value = "01.01.0001", style = "", onchange = "ApplFilter()" } })
+                </div>
+                <div class="col-lg-2">
+                    Конечная дата
+                    @Html.EditorFor(model => model.endDate, new { htmlAttributes = new { @class = "form-control", value = "01.01.0001", style = "", onchange = "ApplFilter()" } })
+                </div>
+                <div class="col-lg-2">
+                    Начальное время
+                    @Html.EditorFor(model => model.startTime, new { htmlAttributes = new { @class = "form-control", value = "00:00", style = "", onchange = "ApplFilter()" } })
+                </div>
+                <div class="col-lg-2">
+                    Конечное время
+                    @Html.EditorFor(model => model.endTime, new { htmlAttributes = new { @class = "form-control", value = "00:00", style = "", onchange = "ApplFilter()" } })
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:20px">
+                <button type="submit" class="btn-my1 btn btn-submit">Поиск</button>
+                <button class="btn-my1 btn btn-submit" onclick="sbros()">Сброс</button>
+            </div>
+            <div style="float:right; margin:20px;">
+                Сортировка
+                @Html.DropDownListFor(model => model.OrderId,
+               new SelectList(new[] {
+                   new SelectListItem { Value = "0", Text = "По дате добавления" },
+                   new SelectListItem { Value = "1", Text = "По дате брони" },}, 
+                   "Value", "Text"), 
+               new { @class = "form-control", value = "", style = "", onchange = "ApplFilter()" })
+
+            </div>
+            @Html.ValidationSummary()
+}
+
+@Html.Partial("RequestListPartial", Model)
+
+
+
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FIO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+                <th>
+            @Html.DisplayNameFor(model => model.Comment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Count)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuestString)
+        </th>
+        <th>
+            Дата сеанса
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FIO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Comment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Count)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuestString)
+        </td>
+        <th>
+            @item.Quest.DateTime.ToString("g")
+        </th>
+    </tr>
+}
+
+</table>*@

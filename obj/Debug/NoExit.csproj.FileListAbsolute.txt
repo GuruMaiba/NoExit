@@ -1,0 +1,416 @@
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ApplicationInsights.config
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\csc.exe
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\vbc.exe
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\VBCSCompiler.exe
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\4.jpg
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\bootstrap.css
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\605e1d69-1729-26ec-8fef-8a1b09e2af16.jpg.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\apocalyps.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\arrow1.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\arrow2.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\arrow_left.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\arrow_right.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\artleo.com-4686.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\big_triangle.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\clock.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\close.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\dark triangle.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\dostavka.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\facebook-logo.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\facebook.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\flampa.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\halyava_fon_stat.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\instagram-logo.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\instagram.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\lock.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\logo.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\nurses.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people2.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people4.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people5.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people_2_neg.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people_3-4.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\people_apocal.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_13.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_15.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_22.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_23.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_3.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_30.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_34.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_56.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_66.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_67.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_71.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_80.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_15.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_21.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_27.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_35.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_37.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_6.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\photo_shiza_7.JPG
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\preloader.gif
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\shiza_fon.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\shizichka.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\sh_fon.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\silenthill.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\sreda_fon_stat.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\stalker - Copy.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\stalker.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\stalker2.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\stalker_fon.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\stalker_min.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\tripadvisor.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\unk1.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\vk-social-logotype.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\vk.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\Слой_1.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\Images\Слой 3 копия 2.png
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\halyava.mp4
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\shiza_fon_mp4.mp4
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\sh_fon_mp4.mp4
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\sreda.mp4
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\stalker_webm.mp4
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\nprogress.css
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\favicon.ico
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo 2.otf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Black.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-BlackItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Bold.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-BoldItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraBold.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraBoldItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraLight.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraLightItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Italic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Light.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-LightItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Medium.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-MediumItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Regular.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-SemiBold.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-SemiBoldItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-Thin.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\Exo2-ThinItalic.ttf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\fonts\gU22F48Y.otf
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\stalker_webm.webm
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Content\mp4\sh_fon_webm.webm
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\cbpGridGallery.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\classie.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\datepicker-ru.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\daterangepicker.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\imagesloaded.pkgd.min.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\jquery.maskedinput.min.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\jquery.unobtrusive-ajax.min.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\masonry.pkgd.min.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\moment.min.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Scripts\nprogress.js
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\smsaero_class.cs
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\NoExit.dll.config
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\NoExit.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\NoExit.pdb
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Antlr3.Runtime.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\EntityFramework.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\EntityFramework.SqlServer.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.Web.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.ApplicationInsights.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.CSharp.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Newtonsoft.Json.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Configuration.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Data.DataSetExtensions.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Data.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Drawing.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.EnterpriseServices.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Net.Http.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Abstractions.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.ApplicationServices.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.DynamicData.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Entity.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Extensions.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Helpers.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Mvc.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Optimization.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Razor.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Routing.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Services.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.WebPages.Deployment.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.WebPages.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.WebPages.Razor.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Xml.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Xml.Linq.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\WebGrease.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\EntityFramework.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\EntityFramework.SqlServer.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.Web.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.ApplicationInsights.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Helpers.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Mvc.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Optimization.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.Razor.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.WebPages.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.WebPages.Deployment.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\System.Web.WebPages.Razor.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Antlr3.Runtime.pdb
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\Newtonsoft.Json.xml
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.Razor.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\obj\Debug\NoExit.csprojResolveAssemblyReference.cache
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\obj\Debug\NoExit.Migrations.Init.resources
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\obj\Debug\NoExit.Migrations.RemoveEmail.resources
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\obj\Debug\NoExit.csproj.GenerateResource.Cache
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\obj\Debug\NoExit.dll
+C:\Users\borob_000\Downloads\NoExit\NoExit\NoExit\obj\Debug\NoExit.pdb
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ApplicationInsights.config
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\csc.exe
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\vbc.exe
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\4.jpg
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\bootstrap.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\2bootstrap.min.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\605e1d69-1729-26ec-8fef-8a1b09e2af16.jpg.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\apocalyps.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\arrow1.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\arrow2.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\arrow_left.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\arrow_right.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\artleo.com-4686.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\big_triangle.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\clock.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\close.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\dark triangle.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\dostavka.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\facebook-logo.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\facebook.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\flampa.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\gallery1.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\halyava_fon_stat.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\instagram-logo.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\instagram.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\lock.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\logo.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\nurses.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people2.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people4.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people5.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people_2_neg.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people_3-4.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\people_apocal.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_13.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_15.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_22.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_23.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_3.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_30.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_34.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_56.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_66.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_67.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_71.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_80.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_15.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_21.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_27.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_35.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_37.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_6.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\photo_shiza_7.JPG
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\preloader.gif
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\shiza_fon.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\shizichka.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\sh_fon.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\silenthill.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\sreda_fon_stat.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\stalker - Copy.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\stalker.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\stalker2.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\stalker_fon.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\stalker_min.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\tripadvisor.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\unk1.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\vk-social-logotype.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\vk.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\Слой_1.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Images\Слой 3 копия 2.png
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\halyava.mp4
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\shiza_fon_mp4.mp4
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\sh_fon_mp4.mp4
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\sreda.mp4
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\stalker_webm.mp4
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\nprogress.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\favicon.ico
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\fonts\glyphicons-halflings-regular.svg
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\Site.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\ai.0.15.0-build58334.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\ai.0.15.0-build58334.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\bootstrap.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\bootstrap.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo 2.otf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Black.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-BlackItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Bold.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-BoldItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraBold.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraBoldItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraLight.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-ExtraLightItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Italic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Light.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-LightItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Medium.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-MediumItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Regular.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-SemiBold.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-SemiBoldItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-Thin.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\Exo2-ThinItalic.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\fonts\gU22F48Y.otf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\stalker_webm.webm
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\mp4\sh_fon_webm.webm
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\cbpGridGallery.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\classie.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\datepicker-ru.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\daterangepicker.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\imagesloaded.pkgd.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery-1.10.2.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery-1.10.2.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.maskedinput.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\jquery-ui.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery-ui.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\jquery-ui.min.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery-ui.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\jquery-ui.structure.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\jquery-ui.structure.min.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\jquery-ui.theme.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Content\jquery-ui.theme.min.css
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.unobtrusive-ajax.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.validate.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.validate.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.validate.unobtrusive.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.validate.unobtrusive.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\masonry.pkgd.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\modernizr-2.6.2.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\moment.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\nprogress.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\respond.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\respond.min.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\_references.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\fonts\glyphicons-halflings-regular.woff
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\fonts\glyphicons-halflings-regular.ttf
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\fonts\glyphicons-halflings-regular.eot
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery-1.10.2.min.map
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\smsaero_class.cs
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery-1.10.2.intellisense.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Scripts\jquery.validate-vsdoc.js
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\NoExit.dll.config
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\NoExit.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\NoExit.pdb
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Antlr3.Runtime.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.DependencyCollector.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.Web.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.WindowsServer.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.ApplicationInsights.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.CSharp.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.ComponentModel.DataAnnotations.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Configuration.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Data.DataSetExtensions.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Data.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Drawing.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.EnterpriseServices.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Net.Http.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Abstractions.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.ApplicationServices.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.DynamicData.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Entity.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Extensions.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Helpers.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Mvc.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Optimization.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Razor.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Routing.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Services.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.WebPages.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Xml.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Xml.Linq.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\WebGrease.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.DependencyCollector.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.Web.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.AI.WindowsServer.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.ApplicationInsights.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Helpers.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Mvc.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Optimization.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.Razor.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.WebPages.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Antlr3.Runtime.pdb
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.Helpers.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.Mvc.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.Optimization.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.Razor.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.WebPages.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\obj\Debug\NoExit.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\obj\Debug\NoExit.Migrations.Init.resources
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\obj\Debug\NoExit.Migrations.RemoveEmail.resources
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\obj\Debug\NoExit.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\obj\Debug\NoExit.dll
+D:\Documents\Visual Studio 2015\Projects\NoExit\NoExit\obj\Debug\NoExit.pdb

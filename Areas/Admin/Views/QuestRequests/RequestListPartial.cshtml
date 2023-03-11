@@ -1,0 +1,169 @@
+﻿@model NoExit.Areas.Admin.Models.RequestsVM
+
+
+<div class="row" id="RequestListSearch">
+
+    <div class="col-lg-12">
+        <div class="row">
+            @*<div class="col-lg-2">
+                    @Html.ActionLink("Добавить запись группы", MVC.Director.Group.Create(), new {@class = "btn btn-success", @style = "margin-bottom: 5px"})
+                </div>*@
+            <div class="col-lg-12">
+
+                @Html.Partial("PaginatorPartial2", Model)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            Имя
+                        </th>
+                        <th>
+                            Телефон
+                        </th>
+                        <th>
+                            Комментарий
+                        </th>
+                        <th>
+                            Кол-во человек
+                        </th>
+                        <th>
+                            Квест
+                        </th>
+                        <th>
+                            Дата сеанса
+                        </th>
+                        
+                    </tr>
+                    @foreach (var item in Model.CahedFiltredSet)
+                    {
+                        <tr>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FIO)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Phone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Comment)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Count)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.QuestString)
+                            </td>
+                            <th>
+                                @item.Quest.DateTime.ToString("g")
+                            </th>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+    @Html.Partial("PaginatorPrevNexPartial", Model)
+</div>
+
+
+<script type="text/javascript">
+    function ApplFilter() {
+        var filterForm = $('#FilterForm');
+        if (filterForm != undefined) {
+            var currPageNumber = $('#CurrPageNumber');
+            if (currPageNumber != undefined) {
+                currPageNumber.val(0);
+                filterForm.submit();
+            }
+        }
+    }
+
+    function SetCommonFilter(fieldName, fieldVal) {
+        var filterHidenField = $('#' + fieldName);
+        if (filterHidenField != undefined) {
+
+            filterHidenField.val(fieldVal);
+        }
+        ApplFilter();
+    }
+
+
+    function SetPage(newSort) {
+        var filterForm = $('#FilterForm');
+        if (filterForm != undefined) {
+            var currPageNumber = $('#CurrPageNumber');
+            if (currPageNumber != undefined) {
+
+                if (newSort != currPageNumber.val()) {
+                    currPageNumber.val(newSort);
+                    filterForm.submit();
+                }
+            }
+        }
+    }
+    function SetPageGlobal(newSort) {
+        var filterForm = $('#FilterForm');
+        if (filterForm != undefined) {
+            var currPageNumber = $('#CurrPageNumber');
+            if (currPageNumber != undefined) {
+
+                if (newSort != currPageNumber.val()) {
+                    currPageNumber.val(newSort);
+                    filterForm.submit();
+                }
+            }
+        }
+    }
+    function SetPageCount(newSort) {
+        var filterForm = $('#FilterForm');
+        if (filterForm != undefined) {
+            var currPageNumber = $('#MaxRecordOnPage');
+            if (currPageNumber != undefined) {
+
+                if (newSort != currPageNumber.val()) {
+                    currPageNumber.val(newSort);
+                    var currPageNumber = $('#CurrPageNumber');
+                    currPageNumber.val(0);
+                    filterForm.submit();
+                }
+            }
+        }
+    }
+    function SetPageCountGlobal(newSort, formName) {
+        var filterForm = $('#' + formName);
+        if (filterForm != undefined) {
+            var currPageNumber = $('#' + formName + ' #MaxRecordOnPage');
+            if (currPageNumber != undefined) {
+
+                if (newSort != currPageNumber.val()) {
+                    currPageNumber.val(newSort);
+                    var currPageNumber = $('#' + formName + ' CurrPageNumber');
+                    currPageNumber.val(0);
+                    filterForm.submit();
+                }
+            }
+        }
+    }
+
+
+
+    function SetPageGlobal(newSort, formName) {
+
+
+        var filterForm = $("#" + formName);
+        if (filterForm != undefined) {
+            var currPageNumber = $("#" + formName + " #CurrPageNumber");
+
+            if (currPageNumber != undefined) {
+
+                if (newSort != currPageNumber.val()) {
+                    currPageNumber.val(newSort);
+                    filterForm.submit();
+                }
+            }
+        }
+    }
+</script>
